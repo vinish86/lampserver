@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Vinish Soman <vinish@qburst.com>
+MAINTAINER Vinish Soman <vinish86@gmail.com>
 # Install packages
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update -qq && apt-get install -y mysql-server
