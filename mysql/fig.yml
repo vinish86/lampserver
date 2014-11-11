@@ -1,0 +1,9 @@
+apache:
+ image: vinish/apache
+ ports:
+  - "80:80"
+
+mysql:
+ image: vinish/mysql
+ ports:
+  - "3306:3306"
